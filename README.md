@@ -11,6 +11,10 @@ Setup:
 ```cmd
 sysmon.exe -accepteula -i sysmonconfig-export.xml
 ```
+Sysmon events on Event Viewer:
+`
+Event Viewer - Applications and Services Logs/Microsoft/Windows/Sysmon/Operational
+`
 
 Sample config files in XML: 
 - [sysmonconfig-export.xml](sysmonconfig-export.xml) (Credits: SwiftOnSecurity)
